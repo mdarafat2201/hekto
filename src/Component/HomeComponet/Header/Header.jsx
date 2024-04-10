@@ -1,26 +1,70 @@
 import React from "react";
 import { CgMail } from "react-icons/cg";
 import Flex from "../../CommonComponent/Flex";
+import { FiPhoneCall } from "react-icons/fi";
+import { IoIosArrowDown } from "react-icons/io";
+import { MdManageAccounts } from "react-icons/md";
+import { GiSelfLove } from "react-icons/gi";
+import { FiShoppingCart } from "react-icons/fi";
 const Header = () => {
   return (
     <>
       <div className="bg-[#7E33E0] py-4">
         <div className="container">
-          <Flex className={"items-center"}>
-            <Flex className={"items-center"}>
-              <div className="text-main_bg_color font-JosefinSans font-bold text-sm ">
-                <CgMail />
-              </div>
-              <div className="text-main_bg_color ml-3 font-JosefinSans font-bold text-sm ">
-                <h2>mhhasanul@gmail.com</h2>
-              </div>
+          <Flex className={"items-center justify-between"}>
+            <Flex className={"items-center  "}>
+              <Flex className={"items-center pr-12"}>
+                <div className="text-main_bg_color mr-3 font-JosefinSans font-bold text-sm ">
+                  <CgMail />
+                </div>
+                <div className="text-main_bg_color  font-JosefinSans font-bold text-sm ">
+                  <h2>mhhasanul@gmail.com</h2>
+                </div>
+              </Flex>
+              <Flex className={"items-center "}>
+                <div className="text-main_bg_color mr-3  font-JosefinSans font-bold text-sm ">
+                  <FiPhoneCall />
+                </div>
+                <div className="text-main_bg_color font-JosefinSans font-bold text-sm ">
+                  <h2>(12345)67890</h2>
+                </div>
+              </Flex>
             </Flex>
-            <Flex className={"items-center"}>
-              <div className="text-main_bg_color font-JosefinSans font-bold text-sm ">
-                <CgMail />
+            <Flex className={"items-center gap-x-4"}>
+              <div>
+                <ul className="flex items-center text-main_bg_color ml-3 font-JosefinSans font-bold text-sm">
+                  <li className="mr-1">
+                    <a href="#">English</a>
+                  </li>
+                  <IoIosArrowDown />
+                </ul>
               </div>
-              <div className="text-main_bg_color ml-3 font-JosefinSans font-bold text-sm ">
-                <h2>mhhasanul@gmail.com</h2>
+              <div>
+                <ul className="flex items-center  text-main_bg_color ml-3 font-JosefinSans font-bold text-sm">
+                  <li className="mr-1">
+                    <a href="#">USD</a>
+                  </li>
+                  <IoIosArrowDown />
+                </ul>
+              </div>
+              <div>
+                <ul className="flex items-center  text-main_bg_color ml-3 font-JosefinSans font-bold text-sm">
+                  <li className="mr-1">
+                    <a href="#">Login</a>
+                  </li>
+                  <MdManageAccounts />
+                </ul>
+              </div>
+              <div>
+                <ul className="flex items-center  text-main_bg_color ml-3 font-JosefinSans font-bold text-sm">
+                  <li className="mr-1">
+                    <a href="#">Wishlist</a>
+                  </li>
+                  <GiSelfLove />
+                </ul>
+              </div>
+              <div className="text-main_bg_color font-bold text-sm">
+                <FiShoppingCart />
               </div>
             </Flex>
           </Flex>
