@@ -7,6 +7,7 @@ export default {
     },
     fontFamily: {
       JosefinSans: "var(--JosefinSans)",
+      Latofont: "var(--Latofont)",
     },
 
     extend: {
