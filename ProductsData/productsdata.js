@@ -1,5 +1,10 @@
+//*****productsdata
+
 import dostImg from "../src/assets/dotsImg.png";
 import productsImg1 from "../src/assets/productsImg1.png";
+import productsImg2 from "../src/assets/productsImg2.png";
+import productsImg3 from "../src/assets/productsImg3.png";
+import productsImg4 from "../src/assets/productsImg4.png";
 
 const productsdata = [
   {
@@ -14,7 +19,7 @@ const productsdata = [
   {
     id: 2,
 
-    Imgs: productsImg1,
+    Imgs: productsImg2,
     Title: "Cantilever chair",
     dostImg: dostImg,
     Code: "Code - Y523201",
@@ -23,7 +28,7 @@ const productsdata = [
   {
     id: 3,
 
-    Imgs: productsImg1,
+    Imgs: productsImg3,
     Title: "Cantilever chair",
     dostImg: dostImg,
     Code: "Code - Y523201",
@@ -32,12 +37,11 @@ const productsdata = [
   {
     id: 4,
 
-    Imgs: productsImg1,
+    Imgs: productsImg4,
     Title: "Cantilever chair",
     dostImg: dostImg,
     Code: "Code - Y523201",
     prich: "$100.00",
   },
 ];
-
 export default productsdata;

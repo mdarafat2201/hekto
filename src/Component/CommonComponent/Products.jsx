@@ -10,8 +10,8 @@ const Products = ({ className, Title, Code, prich, Imgs, dostImg }) => {
   return (
     <>
       <div className={className}>
-        <div className="w-64 box_shod group relative overflow-hidden rounded">
-          <div className="bg-secondary_bg_color  px-12 py-8">
+        <div className="w-64  box_shod group relative overflow-hidden rounded">
+          <div className="bg-secondary_bg_color h-[235px]  px-12 py-8">
             <img src={Imgs ? Imgs : ProductsImg1} alt={Imgs} />
           </div>
           <div className="text-center py-4 bg-main_bg_color transition-all hover:bg-green-300 ">
