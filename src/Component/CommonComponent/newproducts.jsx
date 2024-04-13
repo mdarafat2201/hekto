@@ -5,7 +5,7 @@ const newproducts = ({ img, title, dichcont, prich }) => {
   return (
     <>
       <div className="w-[360px] py-[58px]">
-        <div className="bg-secondary_bg_color  pl-[50px] pt-8 pb-2">
+        <div className="bg-secondary_bg_color h-[270px] pl-[50px] pt-8 pb-2">
           <img src={img ? img : productsImg5} alt={productsImg5} />
         </div>
         <Flex className={"items-center justify-between mt-4"}>
