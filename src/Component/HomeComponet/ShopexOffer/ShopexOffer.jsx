@@ -10,28 +10,28 @@ const ShopexOffer = () => {
     {
       id: 1,
       imgs: freeDeliveryImg,
-      title: "24/7 Support1",
+      title: "24/7 Support",
       ditles:
         " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida",
     },
     {
       id: 2,
       imgs: maniImg,
-      title: "24/7 Support1",
+      title: "24/7 Support",
       ditles:
         " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida",
     },
     {
       id: 3,
       imgs: GroupImg,
-      title: "24/7 Support2",
+      title: "24/7 Support",
       ditles:
         " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida",
     },
     {
       id: 4,
       imgs: collImg,
-      title: "24/7 Support3",
+      title: "24/7 Support",
       ditles:
         " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida",
     },

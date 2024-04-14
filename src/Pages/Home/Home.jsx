@@ -5,6 +5,7 @@ import Banner from "../../Component/HomeComponet/Banner/Banner";
 import FeaturedProducts from "../../Component/HomeComponet//FeaturedProducts/FeaturedProducts";
 import LeatestProducts from "../../Component/HomeComponet/LeatestProducts/LeatestProducts";
 import ShopexOffer from "../../Component/HomeComponet/ShopexOffer/ShopexOffer";
+import TrendingPoducts from "../../Component/HomeComponet/TrendingPoducts/TrendingPoducts";
 const Home = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Home = () => {
       <FeaturedProducts />
       <LeatestProducts />
       <ShopexOffer />
+      <TrendingPoducts />
     </div>
   );
 };
