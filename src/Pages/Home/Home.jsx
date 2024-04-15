@@ -7,6 +7,7 @@ import LeatestProducts from "../../Component/HomeComponet/LeatestProducts/Leates
 import ShopexOffer from "../../Component/HomeComponet/ShopexOffer/ShopexOffer";
 import TrendingPoducts from "../../Component/HomeComponet/TrendingPoducts/TrendingPoducts";
 import TGProducts from "../../Component/HomeComponet/TGProducts/TGProducts";
+import DiscountItem from "../../Component/HomeComponet/DiscountItem/DiscountItem";
 const Home = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Home = () => {
       <ShopexOffer />
       <TrendingPoducts />
       <TGProducts />
+      <DiscountItem />
     </div>
   );
 };
