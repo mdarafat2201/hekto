@@ -2,6 +2,10 @@ import React from "react";
 import Flex from "../../CommonComponent/Flex";
 import CategoriesCort from "../../CommonComponent/CategoriesCort";
 import productsImg21 from "../../../assets/productsImg21.png";
+import productsImg22 from "../../../assets/productsImg22.png";
+import productsImg23 from "../../../assets/productsImg23.png";
+import productsImg24 from "../../../assets/productsImg24.png";
+
 const TopCategories = () => {
   const Categoriesdata = [
     {
@@ -12,19 +16,19 @@ const TopCategories = () => {
     },
     {
       id: 1,
-      img: productsImg21,
+      img: productsImg22,
       title: "Mini LCW Chair",
       prich: "$56.00",
     },
     {
       id: 1,
-      img: productsImg21,
+      img: productsImg23,
       title: "Mini LCW Chair",
       prich: "$56.00",
     },
     {
       id: 1,
-      img: productsImg21,
+      img: productsImg24,
       title: "Mini LCW Chair",
       prich: "$56.00",
     },
