@@ -10,6 +10,7 @@ import TGProducts from "../../Component/HomeComponet/TGProducts/TGProducts";
 import DiscountItem from "../../Component/HomeComponet/DiscountItem/DiscountItem";
 import TopCategories from "../../Component/HomeComponet/TopCategories/TopCategories";
 import OurNewslater from "../../Component/HomeComponet/ourNewslater/ourNewslater";
+import LeatestBlog from "../../Component/HomeComponet/LeatestBlog/LeatestBlog";
 const Home = () => {
   return (
     <div>
@@ -24,6 +25,7 @@ const Home = () => {
       <DiscountItem />
       <TopCategories />
       <OurNewslater />
+      <LeatestBlog />
     </div>
   );
 };
