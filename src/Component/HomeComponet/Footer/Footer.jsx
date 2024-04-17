@@ -1,14 +1,12 @@
 import React from "react";
 import FooterTop from "../../CommonComponent/FooterTop";
+import FooterBottem from "../../CommonComponent/FooterBottem";
 const Footer = () => {
   return (
     <>
-      <div className="bg-secondary_bg_color py-20">
-        <div className="container">
-          <div>
-            <FooterTop />
-          </div>
-        </div>
+      <div>
+        <FooterTop />
+        <FooterBottem />
       </div>
     </>
   );
