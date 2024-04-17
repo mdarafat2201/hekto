@@ -11,6 +11,7 @@ import DiscountItem from "../../Component/HomeComponet/DiscountItem/DiscountItem
 import TopCategories from "../../Component/HomeComponet/TopCategories/TopCategories";
 import OurNewslater from "../../Component/HomeComponet/ourNewslater/ourNewslater";
 import LeatestBlog from "../../Component/HomeComponet/LeatestBlog/LeatestBlog";
+import Footer from "../../Component/HomeComponet/Footer/Footer";
 const Home = () => {
   return (
     <div>
@@ -26,6 +27,7 @@ const Home = () => {
       <TopCategories />
       <OurNewslater />
       <LeatestBlog />
+      <Footer />
     </div>
   );
 };
