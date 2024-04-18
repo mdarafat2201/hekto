@@ -7,8 +7,8 @@ import { FaSearchPlus } from "react-icons/fa";
 const newproducts = ({ img, title, dichcont, prich }) => {
   return (
     <>
-      <div className="w-[360px] py-[58px] relative group overflow-hidden ">
-        <div className="bg-secondary_bg_color hover:bg-main_bg_color h-[270px] pl-[50px] pt-8 pb-2">
+      <div className="w-[360px] sm:w-[300px] md:w-[360px]  py-10 relative group overflow-hidden ">
+        <div className="bg-secondary_bg_color hover:bg-main_bg_color h-[270px] pl-[50px] sm:pl-[35px] md:pl-[50px] pt-8 pb-2">
           <img src={img ? img : productsImg5} alt={productsImg5} />
         </div>
         <Flex className={"items-center justify-between mt-4"}>

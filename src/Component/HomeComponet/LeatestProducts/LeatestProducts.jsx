@@ -10,27 +10,27 @@ const LeatestProducts = () => {
         <div className="container">
           <div>
             <div>
-              <h2 className="text-center font-JosefinSans mb-12 text-4xl text-main_font_color font-bold">
+              <h2 className="text-center font-JosefinSans mb-12 text-[25px] sm:text-4xl text-main_font_color font-bold">
                 Leatest Products
               </h2>
             </div>
-            <div className=" ml-[400px]">
-              <ul className="flex items-center gap-x-14  ">
-                <li className="font-JosefinSans text-md font-normal text-main_font_color hover:text-secondary_font_color">
+            <div className=" ml-5 sm:ml-[125px] md:ml-[180px] lg:ml-[400px] ">
+              <ul className="flex items-center gap-x-4 sm:gap-x-8 md:gap-x-14  ">
+                <li className="font-JosefinSans text-sm sm:text-md font-normal text-main_font_color hover:text-secondary_font_color">
                   <a href="#">New Arrival</a>
                 </li>
-                <li className="font-JosefinSans text-md font-normal text-main_font_color hover:text-secondary_font_color">
+                <li className="font-JosefinSans text-sm sm:text-md font-normal text-main_font_color hover:text-secondary_font_color">
                   <a href="#">Best Seller</a>
                 </li>
-                <li className="font-JosefinSans text-md font-normal text-main_font_color hover:text-secondary_font_color">
+                <li className="font-JosefinSans text-sm sm:text-md font-normal text-main_font_color hover:text-secondary_font_color">
                   <a href="#">Featured</a>
                 </li>
-                <li className="font-JosefinSans text-md font-normal text-main_font_color hover:text-secondary_font_color">
+                <li className="font-JosefinSans text-sm sm:text-md font-normal text-main_font_color hover:text-secondary_font_color">
                   <a href="#">Special Offer</a>
                 </li>
               </ul>
             </div>
-            <Flex className={"items-center justify-between flex-wrap"}>
+            <Flex className={"items-center justify-between px-2 flex-wrap"}>
               {newproductsdata?.map((item) => (
                 <Newproducts
                   key={item.id}
