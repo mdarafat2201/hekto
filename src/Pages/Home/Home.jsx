@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../../Component/HomeComponet/Header/Header";
-import Navber from "../../Component/HomeComponet/Navber/Navber";
 import Banner from "../../Component/HomeComponet/Banner/Banner";
 import FeaturedProducts from "../../Component/HomeComponet//FeaturedProducts/FeaturedProducts";
 import LeatestProducts from "../../Component/HomeComponet/LeatestProducts/LeatestProducts";
@@ -11,12 +9,10 @@ import DiscountItem from "../../Component/HomeComponet/DiscountItem/DiscountItem
 import TopCategories from "../../Component/HomeComponet/TopCategories/TopCategories";
 import OurNewslater from "../../Component/HomeComponet/ourNewslater/ourNewslater";
 import LeatestBlog from "../../Component/HomeComponet/LeatestBlog/LeatestBlog";
-import Footer from "../../Component/HomeComponet/Footer/Footer";
+
 const Home = () => {
   return (
     <div>
-      <Header />
-      <Navber />
       <Banner />
       <FeaturedProducts />
       <LeatestProducts />
@@ -27,7 +23,6 @@ const Home = () => {
       <TopCategories />
       <OurNewslater />
       <LeatestBlog />
-      <Footer />
     </div>
   );
 };

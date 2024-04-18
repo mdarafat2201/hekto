@@ -9,10 +9,14 @@ import { FiShoppingCart } from "react-icons/fi";
 const Header = () => {
   return (
     <>
-      <div className="bg-[#7E33E0] py-4">
+      <div className="bg-[#7E33E0] py-4 px-2 sm:px-0">
         <div className="container">
-          <Flex className={"items-center justify-between"}>
-            <Flex className={"items-center  "}>
+          <Flex
+            className={
+              "items-center flex-col sm:flex-row gap-y-2 sm:gap-y-0 justify-between"
+            }
+          >
+            <Flex className={"items-center flex-wrap "}>
               <Flex className={"items-center pr-12"}>
                 <div className="text-main_bg_color mr-3 font-JosefinSans font-bold text-sm ">
                   <CgMail />
@@ -30,9 +34,9 @@ const Header = () => {
                 </div>
               </Flex>
             </Flex>
-            <Flex className={"items-center gap-x-4"}>
+            <Flex className={"items-center gap-x-2 sm:gap-x-4"}>
               <div>
-                <ul className="flex items-center text-main_bg_color ml-3 font-JosefinSans font-bold text-sm">
+                <ul className="flex items-center text-main_bg_color ml-2 sm:ml-3 font-JosefinSans font-bold text-sm">
                   <li className="mr-1">
                     <a href="#">English</a>
                   </li>
@@ -40,7 +44,7 @@ const Header = () => {
                 </ul>
               </div>
               <div>
-                <ul className="flex items-center  text-main_bg_color ml-3 font-JosefinSans font-bold text-sm">
+                <ul className="flex items-center  text-main_bg_color ml-2 sm:ml-3 font-JosefinSans font-bold text-sm">
                   <li className="mr-1">
                     <a href="#">USD</a>
                   </li>
@@ -48,7 +52,7 @@ const Header = () => {
                 </ul>
               </div>
               <div>
-                <ul className="flex items-center  text-main_bg_color ml-3 font-JosefinSans font-bold text-sm">
+                <ul className="flex items-center  text-main_bg_color ml-2 sm:ml-3 font-JosefinSans font-bold text-sm">
                   <li className="mr-1">
                     <a href="#">Login</a>
                   </li>
@@ -56,7 +60,7 @@ const Header = () => {
                 </ul>
               </div>
               <div>
-                <ul className="flex items-center  text-main_bg_color ml-3 font-JosefinSans font-bold text-sm">
+                <ul className="flex items-center  text-main_bg_color ml-2 sm:ml-3 font-JosefinSans font-bold text-sm">
                   <li className="mr-1">
                     <a href="#">Wishlist</a>
                   </li>
