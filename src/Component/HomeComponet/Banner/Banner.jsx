@@ -52,7 +52,7 @@ function SamplePrevArrow(props) {
       }}
       onClick={onClick}
     >
-      <div className="flex justify-center items-center h-full cursor-pointer hover:bg-main_font_color rounded-full">
+      <div className="flex justify-center  items-center h-full cursor-pointer hover:bg-main_font_color rounded-full">
         <FaLongArrowAltRight className="text-base text-secondary_font_color" />
       </div>
     </div>

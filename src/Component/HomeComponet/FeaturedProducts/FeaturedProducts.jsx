@@ -11,11 +11,15 @@ const FeaturedProducts = () => {
         <div className="container">
           <div>
             <div>
-              <h2 className="text-center font-JosefinSans mb-12 text-4xl text-main_font_color font-bold">
+              <h2 className="text-center font-JosefinSans mb-12 text-[25px] sm:text-4xl text-main_font_color font-bold">
                 Featured Products
               </h2>
             </div>
-            <Flex className={"items-center justify-between"}>
+            <Flex
+              className={
+                "items-center flex-wrap mx-[60px] sm:mx-[30px] md:mx-[80px] lg:mx-0 gap-y-10 md:gap-y-14 lg:gap-y-0 justify-between"
+              }
+            >
               {productsdata?.map((item) => (
                 <Products
                   key={item.id}
