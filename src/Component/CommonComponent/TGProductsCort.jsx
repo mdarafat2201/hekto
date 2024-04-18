@@ -4,7 +4,7 @@ import Flex from "./Flex";
 const TGProductsCort = ({ img, title, dichcot, prach }) => {
   return (
     <>
-      <div className="w-[270px] bg-main_bg_color my-10 box_shod p-3">
+      <div className="w-[270px] bg-main_bg_color my-8 box_shod p-3">
         <div className="mb-4">
           <img src={img ? img : productsImg11} alt={productsImg11} />
         </div>

@@ -14,11 +14,15 @@ const TGProducts = () => {
         <div className="container">
           <div>
             <div>
-              <h2 className="text-center font-JosefinSans  text-4xl text-main_font_color font-bold">
+              <h2 className="text-center font-JosefinSans text-[25px] sm:text-4xl text-main_font_color font-bold">
                 Trending Products
               </h2>
             </div>
-            <Flex className={"items-center justify-between"}>
+            <Flex
+              className={
+                "items-center flex-wrap px-14 sm:px-5 md:px-16 lg:px-0 justify-between"
+              }
+            >
               {TGProductsdata?.map((item) => (
                 <TGProductsCort
                   img={item.img}
