@@ -6,6 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { MdManageAccounts } from "react-icons/md";
 import { GiSelfLove } from "react-icons/gi";
 import { FiShoppingCart } from "react-icons/fi";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
@@ -38,7 +39,7 @@ const Header = () => {
               <div>
                 <ul className="flex items-center text-main_bg_color ml-2 sm:ml-3 font-JosefinSans font-bold text-sm">
                   <li className="mr-1">
-                    <a href="#">English</a>
+                    <Link to={"/"}> English</Link>
                   </li>
                   <IoIosArrowDown />
                 </ul>
@@ -46,7 +47,7 @@ const Header = () => {
               <div>
                 <ul className="flex items-center  text-main_bg_color ml-2 sm:ml-3 font-JosefinSans font-bold text-sm">
                   <li className="mr-1">
-                    <a href="#">USD</a>
+                    <Link to={"/"}> USD</Link>
                   </li>
                   <IoIosArrowDown />
                 </ul>
@@ -54,7 +55,7 @@ const Header = () => {
               <div>
                 <ul className="flex items-center  text-main_bg_color ml-2 sm:ml-3 font-JosefinSans font-bold text-sm">
                   <li className="mr-1">
-                    <a href="#">Login</a>
+                    <Link to={"/"}> Login</Link>
                   </li>
                   <MdManageAccounts />
                 </ul>
@@ -62,7 +63,7 @@ const Header = () => {
               <div>
                 <ul className="flex items-center  text-main_bg_color ml-2 sm:ml-3 font-JosefinSans font-bold text-sm">
                   <li className="mr-1">
-                    <a href="#">Wishlist</a>
+                    <Link to={"/"}> Wishlist</Link>
                   </li>
                   <GiSelfLove />
                 </ul>
