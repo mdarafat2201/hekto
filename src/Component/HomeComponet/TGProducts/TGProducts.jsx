@@ -34,8 +34,12 @@ const TGProducts = () => {
             </Flex>
 
             <div className="my-5">
-              <Flex className={"items-center justify-between"}>
-                <div className="w-[420px] h-[290px] bg-[#FFF6FB] ">
+              <Flex
+                className={
+                  "items-center px-4 sm:px-24 md:px-3 lg:px-0 gap-y-6 flex-wrap justify-between"
+                }
+              >
+                <div className="w-[420px] md:w-[355px] lg:w-[420px] h-[290px] bg-[#FFF6FB] ">
                   <div className="pt-8 ml-6">
                     <h2 className=" font-JosefinSans  text-[26px] text-main_font_color font-bold">
                       23% off in all products
@@ -50,7 +54,7 @@ const TGProducts = () => {
                     <img src={productsImg15} alt={productsImg15} />
                   </div>
                 </div>
-                <div className="w-[420px] h-[290px] bg-secondary_bg_color">
+                <div className="w-[420px] md:w-[355px] lg:w-[420px] h-[290px] bg-secondary_bg_color">
                   <div className="pt-8 ml-6">
                     <h2 className=" font-JosefinSans  text-[26px] text-main_font_color font-bold">
                       23% off in all products
