@@ -43,11 +43,11 @@ const ShopexOffer = () => {
         <div className="container">
           <div>
             <div>
-              <h2 className="text-center font-JosefinSans mb-12 text-4xl text-main_font_color font-bold">
+              <h2 className="text-center font-JosefinSans mb-8 text-[25px] sm:text-4xl text-main_font_color font-bold">
                 What Shopex Offer!
               </h2>
             </div>
-            <Flex className="items-center justify-between">
+            <Flex className="items-center flex-wrap px-14 sm:px-6 md:px-14 lg:px-0  justify-between">
               {offerdata?.map((item) => (
                 <OfferCort
                   key={item.id}
