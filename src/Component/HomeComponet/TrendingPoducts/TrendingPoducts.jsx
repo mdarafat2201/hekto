@@ -5,14 +5,14 @@ import Flex from "../../CommonComponent/Flex";
 const TrendingPoducts = () => {
   return (
     <>
-      <div className="py-4 my-24 bg-secondary_bg_color px-[120px]">
+      <div className="px-4 py-4 my-24 bg-secondary_bg_color sm:px-[120px] md:px-5">
         <div className="container">
-          <Flex className={"items-center justify-between"}>
+          <Flex className={"items-center flex-col md:flex-row justify-between"}>
             <div>
               <img src={TrendingPoductsImg} alt={TrendingPoductsImg} />
             </div>
             <div>
-              <h2 className=" font-JosefinSans mb-8 text-4xl text-main_font_color font-bold">
+              <h2 className=" font-JosefinSans mb-8 text-[20px] sm:text-3xl lg:text-4xl text-main_font_color font-bold">
                 Unique Features Of leatest & Trending Poducts
               </h2>
               <Flex className={"items-center gap-x-3 mb-3 "}>
@@ -23,7 +23,7 @@ const TrendingPoducts = () => {
               </Flex>
               <Flex className={"items-center gap-x-3 mb-3 "}>
                 <div className="w-3 h-3  bg-main_font_color rounded-full"></div>
-                <p className="font-normal font-Latofont text-sm text-[#1A0B5B] opacity-35 mr-[200px]">
+                <p className="font-normal font-Latofont text-sm text-[#1A0B5B] opacity-35 mr-0 lg:mr-[200px]">
                   Reinforced with double wood dowels, glue, screw - nails corner
                   blocks and machine nails
                 </p>
