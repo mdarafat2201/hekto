@@ -6,17 +6,17 @@ import FooterItem from "./FooterItem";
 const FooterTop = () => {
   return (
     <>
-      <div className="bg-secondary_bg_color py-20">
+      <div className="bg-secondary_bg_color px-3 sm:px-10 md:px-5 lg:px-0 py-20">
         <div className="container">
           <div>
-            <Flex className={"items-start justify-between"}>
+            <Flex className={"items-start flex-wrap justify-between"}>
               <div>
                 <img src={FooterLogo} alt={FooterLogo} />
                 <div className="py-8">
                   <input
                     type="text"
                     placeholder="Enter Email Address"
-                    className="py-3 pl-5 w-[240px]"
+                    className="py-3 pl-5 w-[200px]  sm:w-[240px] md:w-[200px] lg:w-[240px]"
                   />
                   <Button
                     className={"py-3 px-10 bg-secondary_font_color rounded"}

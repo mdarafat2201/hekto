@@ -4,7 +4,7 @@ const FooterItem = ({ allitem = ["one", "two", "thwee"], title }) => {
   return (
     <>
       <div>
-        <h2 className="f font-JosefinSans font-bold my-10 text-md text-[#000]">
+        <h2 className="f font-JosefinSans font-bold my-5 sm:my-10 text-md text-[#000]">
           {title ? title : "Catagories"}
         </h2>
         <ul>
