@@ -5,7 +5,7 @@ import Flex from "./Flex";
 const BlogCort = ({ img, name, dite, title, ditles, More }) => {
   return (
     <>
-      <div className="w-[370px] my-20 rounded group box_shod">
+      <div className="w-[370px] md:w-[320px] lg:w-[370px] lg:my-20 my-8 rounded group box_shod">
         <img src={img ? img : productsImg25} alt={productsImg25} />
         <div className="px-5">
           <Flex className={"items-center gap-x-8 mt-5"}>
