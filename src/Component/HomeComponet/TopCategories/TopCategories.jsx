@@ -40,11 +40,11 @@ const TopCategories = () => {
         <div className="container">
           <div>
             <div>
-              <h2 className="text-center font-JosefinSans mb-12 text-4xl text-main_font_color font-bold">
+              <h2 className="text-center font-JosefinSans mb-8 text-3xl sm:text-4xl text-main_font_color font-bold">
                 Top Categories
               </h2>
             </div>
-            <Flex className="items-conter justify-between">
+            <Flex className="items-conter flex-wrap px-14 sm:px-0 md:px-10 lg:px-0 justify-between">
               {Categoriesdata?.map((item) => (
                 <CategoriesCort
                   key={item.id}
