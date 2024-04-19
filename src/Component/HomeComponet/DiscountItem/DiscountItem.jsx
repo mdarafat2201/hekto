@@ -10,13 +10,13 @@ const DiscountItem = () => {
         <div className="container">
           <div>
             <div>
-              <h2 className="text-center font-JosefinSans  text-4xl text-main_font_color font-bold">
+              <h2 className="text-center font-JosefinSans text-[25px]  sm:text-4xl text-main_font_color font-bold">
                 Discount Item
               </h2>
             </div>
 
-            <div className=" ml-[475px] mt-8">
-              <ul className="flex items-center gap-x-8  ">
+            <div className=" sm:mx-[150px] md:mx-[205px] lg:mx-[470px] mx-6 mt-8">
+              <ul className="flex items-center gap-x-4 sm:gap-x-8  ">
                 <li className="font-JosefinSans text-md font-normal text-main_font_color hover:text-secondary_font_color">
                   <a href="#">Wood Chair</a>
                 </li>
@@ -29,9 +29,13 @@ const DiscountItem = () => {
               </ul>
             </div>
 
-            <Flex className={"items-center justify-between"}>
+            <Flex
+              className={
+                "items-center flex-wrap md:flex-nowrap px-3 lg:px-0 mt-5 lg:mt-0 justify-between"
+              }
+            >
               <div>
-                <h2 className=" font-JosefinSans  text-4xl text-main_font_color font-bold">
+                <h2 className=" font-JosefinSans text-3xl sm:text-4xl md:text-3xl lg:text-4xl text-main_font_color font-bold">
                   20% Discount Of All Products
                 </h2>
                 <h4 className="font-JosefinSans text-md mt-4 font-normal text-secondary_font_color">
@@ -41,7 +45,7 @@ const DiscountItem = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu
                   eget <br /> feugiat habitasse nec, bibendum condimentum.
                 </p>
-                <Flex className={"items-center gap-x-[44px] mb-9"}>
+                <Flex className={"items-center flex-wrap gap-x-[44px] mb-9"}>
                   <div>
                     <Flex className={"items-center gap-x-2 mb-3 "}>
                       <img src={tickmark} alt={tickmark} />
@@ -73,7 +77,7 @@ const DiscountItem = () => {
                 </Flex>
                 <Button
                   className={
-                    "py-5 px-12 cursor-pointer bg-secondary_font_color rounded"
+                    " py-3 sm:py-5 px-8 sm:px-12 cursor-pointer bg-secondary_font_color rounded"
                   }
                   title={"Shop Now"}
                 />
